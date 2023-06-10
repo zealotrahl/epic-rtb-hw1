@@ -45,6 +45,8 @@ if (!fs.existsSync(pathToScript) || !(fs.statSync(pathToScript).mode & fs.consta
 
 ![1686399410030](image/readme/1686399410030.png)
 
+![1686399471899](image/readme/1686399471899.png)
+
 ### Future improvements
 
 The code in this repository is relatively simple. However, to fully leverage the benefits of the Map-Reduce paradigm, it is recommended to enhance the code using Node.js cluster mode. This allows for running mappers and reducers in parallel, resulting in improved performance.
